@@ -9,4 +9,5 @@ Currently, two official plugins are available:
 
 # Output
 
-![image](https://github.com/manik-18/Portfolio/assets/102967918/478de285-3a23-41f7-80e7-ce038322bd14)
+![image](https://github.com/manik-18/Personal-Portfolio/assets/102967918/37d225f3-2259-4bc1-8974-561698602eaf)
+
