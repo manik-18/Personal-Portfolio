@@ -22,7 +22,7 @@ function Home() {
     };
   }, []);
   const resumeUrl =
-    "https://drive.google.com/file/d/1ea-qtY1vKkSfa3iNDNICKDL-ECkQANJY/view?usp=sharing";
+    "https://drive.google.com/file/d/16YMaiyTW763VxIzwxKSqhwu28ZvRli7d/view?usp=sharing";
 
   const openResumeInNewTab = () => {
     window.open(resumeUrl, "_blank");
