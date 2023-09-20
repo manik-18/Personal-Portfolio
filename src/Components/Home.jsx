@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Typed from "typed.js";
-import Manik from "../assets/Manik.png";
+import Manik from "../assets/Manik.jpeg";
 
 function Home() {
   useEffect(() => {
