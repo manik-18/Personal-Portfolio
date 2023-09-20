@@ -37,10 +37,18 @@ const projects = [
   {
     pictureSrc:
       "https://user-images.githubusercontent.com/102967918/259405167-478de285-3a23-41f7-80e7-ce038322bd14.png",
-    title: "Portfolio",
+    title: "Personal Portfolio",
     description:
       "Explore my portfolio website crafted using React, Vite, and Tailwind CSS, where I proudly present a collection of my work. This platform not only showcases my projects but also highlights my diverse skill set, providing a comprehensive view of my capabilities.",
-    readMoreLink: "https://github.com/manik-18/Portfolio",
+    readMoreLink: "https://github.com/manik-18/Personal-Portfolio",
+  },
+  {
+    pictureSrc:
+      "https://user-images.githubusercontent.com/102967918/265776345-ace28d54-b098-41fe-8fe5-96936d33e98f.png",
+    title: "iNotebook",
+    description:
+      "iNotebook is an advanced notes application that combines user authentication and note management with a strong focus on user's security.",
+    readMoreLink: "https://github.com/manik-18/iNotebook",
   },
 ];
 
