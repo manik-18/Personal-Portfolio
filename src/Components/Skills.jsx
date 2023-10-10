@@ -11,6 +11,8 @@ import Python from "../assets/python.svg";
 import Reactjs from "../assets/react.svg";
 import Sql from "../assets/sql.svg";
 import Tailwind from "../assets/tailwind.svg";
+import Node from "../assets/node.svg";
+import Express from "../assets/express.svg";
 
 function Skills() {
   return (
@@ -122,6 +124,26 @@ function Skills() {
               />
               <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                 <a href="#">Mongo DB</a>
+              </h3>
+            </div>
+            <div className="text-center text-gray-500 dark:text-gray-400">
+              <img
+                className="mx-auto mb-4 w-16 h-16 "
+                src={Node}
+                alt="Node"
+              />
+              <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <a href="#">Node Js</a>
+              </h3>
+            </div>
+            <div className="text-center text-gray-500 dark:text-gray-400">
+              <img
+                className="mx-auto mb-4 w-16 h-16 dark:bg-white p-2"
+                src={Express}
+                alt="Express"
+              />
+              <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <a href="#">Express Js</a>
               </h3>
             </div>
             <div className="text-center text-gray-500 dark:text-gray-400">
