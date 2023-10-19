@@ -21,7 +21,7 @@ const projects = [
   {
     pictureSrc:
       "https://user-images.githubusercontent.com/102967918/249750153-796890cf-0e88-457a-8ee5-3a6b7403aea0.png",
-    title: "Medical Assistance Software",
+    title: "e-MAS",
     description:
       "e-MAS is a 24x7 Medical Assistance Software for medical emergencies, providing solutions like ambulance booking, doctor appointments, medicine suggestions, lab test booking, and purchasing medical supplies. With a user-friendly interface and Java Swing development, it ensures ease of use and understanding.",
     readMoreLink: "https://github.com/manik-18/Medical-Assistance-Software",

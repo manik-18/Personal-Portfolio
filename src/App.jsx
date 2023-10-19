@@ -1,30 +1,22 @@
-import React, { useEffect } from "react";
-import "./App.css";
+import React from "react";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import Home from "./Components/Home";
 import Navbar from "./Components/Navbar";
 import About from "./Components/About";
-import toast, { Toaster } from "react-hot-toast";
+import Design from "./Components/Design";
 
 function App() {
-  useEffect(() => {
-    toast("welcome to my portfolio!", {
-      icon: "👋",
-      duration: 3000,
-    });
-  }, []);
-
   return (
-    <div>
+    <div className="min-h-screen bg-black relative">
       <Navbar />
-      <Toaster position="top-center" />{" "}
-      <main>
+      <main className="z-10 relative">
         <Home />
         <About />
         <Contact />
+        <Footer />
       </main>
-      <Footer />
+      <Design />
     </div>
   );
 }
