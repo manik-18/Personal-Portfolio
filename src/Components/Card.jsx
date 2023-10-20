@@ -4,7 +4,7 @@ function Card(props) {
   const { pictureSrc, title, description, readMoreLink } = props;
 
   return (
-    <div className="hover:shadow-2xl  hover:shadow-green-500 hover:scale-105 transition-shadow max-w-sm border border-white rounded-lg shadow">
+    <div className="hover:shadow-2xl  hover:shadow-green-500 hover:scale-105 transition-shadow max-w-sm border border-white rounded-lg shadow mx-3 bg-black" >
       <img className="rounded-t-lg w-96 h-36" src={pictureSrc} alt="" />
       <div className="p-5">
         <a href={readMoreLink}>

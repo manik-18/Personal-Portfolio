@@ -37,6 +37,50 @@ function About() {
     },
   ];
 
+  const educationData = [
+    {
+      date: "2024",
+      title: "New Horizon College Of Engineering",
+      subtitle: "B.E. in Computer Science, Bangalore",
+      description: "",
+      icon: (
+        <img
+          src="https://scontent.fblr25-1.fna.fbcdn.net/v/t39.30808-6/365555943_672123748280749_7135534216767217260_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=wNFI7YVykgcAX_jbUO7&_nc_ht=scontent.fblr25-1.fna&oh=00_AfDOtCqV5ut8jMVJ9S2nv4POF1mYjZP4z6oCQtRs8ReZ_g&oe=65384527"
+          className="w-18 h-18 rounded-full"
+          alt="codeclause"
+        />
+      ),
+    },
+    {
+      date: "2020",
+      title: "Govt. Ranbir Higher Secondary School",
+      subtitle: "Class - XII, Jammu",
+      description:
+        "",
+      icon: (
+        <img
+          src="https://scontent.fblr25-1.fna.fbcdn.net/v/t39.30808-6/301378011_3224704917742118_6900531713301741881_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=7-T-6XzOZqsAX-lEpV9&_nc_ht=scontent.fblr25-1.fna&oh=00_AfDc2j4mYJ3LPqpwil3IyvAd5aWJUNTwqR-WftWVk50U2w&oe=65371E1B"
+          className="w-18 h-18 rounded-full"
+          alt="smartknower"
+        />
+      ),
+    },
+    {
+      date: "2018",
+      title: "New Dream Land Public High School",
+      subtitle: "Class - X, Jammu",
+      description:
+        "",
+      icon: (
+        <img
+          src="https://scontent.fblr25-1.fna.fbcdn.net/v/t1.6435-9/53345340_110044236821567_407672261307269120_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=be3454&_nc_ohc=5fSgLimPFG0AX-HjqAn&_nc_ht=scontent.fblr25-1.fna&oh=00_AfC53I4zNMqUbahTMdME2SmwKexjBu89DotfGveGtNuEBw&oe=655A2D4A"
+          className="w-18 h-18 rounded-full"
+          alt="smartknower"
+        />
+      ),
+    },
+  ];
+
   return (
     <div id="about">
       <br />
@@ -87,6 +131,19 @@ function About() {
           </div>
         </div>
         <CardItem />
+      </section>
+      <section>
+        <div className="container mx-auto pt-24 pb-8 px-4">
+          <div className="text-center">
+            <h2 className="text-3xl font-extrabold text-white mb-4">
+              <span className="bg-black">Education</span>
+            </h2>
+            <p className="text-gray-400 font-semibold md:text-lg lg:text-xl">
+              <span className="bg-black">My Education Details</span>
+            </p>
+          </div>
+        </div>
+        <TimeLine timelineData={educationData} />
       </section>
       <section>
         <div className="container mx-auto pt-32 pb-8 px-4">

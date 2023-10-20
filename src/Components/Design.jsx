@@ -74,7 +74,7 @@ const Design = () => {
               value: 80,
             },
             opacity: {
-              value: 0.2,
+              value: 0.4,
             },
             shape: {
               type: "circle",
