@@ -4,23 +4,30 @@ function Card(props) {
   const { pictureSrc, title, description, readMoreLink } = props;
 
   return (
-    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    <div className="hover:shadow-2xl  hover:shadow-green-500 hover:scale-105 transition-shadow max-w-sm border border-white rounded-lg shadow">
       <img className="rounded-t-lg w-96 h-36" src={pictureSrc} alt="" />
       <div className="p-5">
         <a href={readMoreLink}>
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <span className="bg-black">
             {title}
+            </span>
           </h5>
         </a>
         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+          <span className="bg-black">
           {description.length > 150
             ? description.slice(0, 150) + "..."
             : description}
+          </span>
         </p>
 
         <a
           href={readMoreLink}
-          className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-black rounded-lg"
+          className="inline-flex cursor-pointer transition-all bg-green-500 text-black font-bold border-2 px-6 py-2 rounded-lg
+          border-green-900
+          border-b-[4px] hover:brightness-110 hover:-translate-y-[1px] hover:border-b-[6px]
+          active:border-b-[2px] active:brightness-90 active:translate-y-[2px]"
         >
           Know more &nbsp;
           <svg

@@ -4,16 +4,31 @@ const Contact = () => {
   return (
     <div>
       <br />
-      <section id="contact">
-        <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-          <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-white">
-            Contact Us
+      <section id="contact" className="my-16">
+        <div className=" pt-32 pb-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+          <h2 className="text-3xl font-extrabold text-white mb-4 text-center">
+            <span className="bg-black">Contact Us</span>
           </h2>
-          <p className="mb-8 lg:mb-16 font-light text-center text-white sm:text-xl">
-            Got a technical issue? Want to send feedback about a beta feature?
-            Need details about our Business plan? Let us know.
+          <p className="text-gray-400 font-semibold md:text-lg lg:text-xl text-center mb-8">
+            <span className="bg-black">Want to get in touch with me? Let me know.</span>
           </p>
           <form action="#" className="space-y-8">
+            <div>
+              <label
+                htmlFor="name"
+                className="block mb-2 text-sm font-medium text-white"
+              >
+                Your name
+              </label>
+              <input
+                type="text"
+                id="name"
+                className="shadow-sm bg-gray-50 border border-gray-300 text-black text-sm rounded-lg focus:ring-red-500 focus:border-red-500 font-semibold  block focus:ring-2 w-full p-2.5"
+                placeholder="first middle last"
+                autoComplete="name"
+                required
+              />
+            </div>
             <div>
               <label
                 htmlFor="email"
@@ -24,8 +39,9 @@ const Contact = () => {
               <input
                 type="email"
                 id="email"
-                className="shadow-sm bg-gray-50 border border-gray-300 text-white text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
-                placeholder="name@flowbite.com"
+                autoComplete="email"
+                className="shadow-sm bg-gray-50 border border-gray-300 text-black text-sm rounded-lg focus:ring-red-500 focus:border-red-500 font-semibold  block w-full focus:ring-2 p-2.5"
+                placeholder="name@domain.com"
                 required
               />
             </div>
@@ -39,7 +55,7 @@ const Contact = () => {
               <input
                 type="text"
                 id="subject"
-                className="block p-3 w-full text-sm text-white bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500"
+                className="block p-3 w-full text-sm text-black bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-red-500 focus:ring-2 focus:border-red-500 font-semibold "
                 placeholder="Let us know how we can help you"
                 required
               />
@@ -54,13 +70,16 @@ const Contact = () => {
               <textarea
                 id="message"
                 rows="6"
-                className="block p-2.5 w-full text-sm text-white bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500"
+                className="block p-2.5 w-full text-sm text-black bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-2 focus:ring-red-500 focus:border-red-500 font-semibold "
                 placeholder="Leave a comment..."
               ></textarea>
             </div>
             <button
               type="submit"
-              className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300"
+              className="cursor-pointer transition-all bg-red-500 text-white px-6 py-2 rounded-lg
+              border-red-700
+              border-b-[4px] hover:brightness-110 hover:-translate-y-[1px] hover:border-b-[6px]
+              active:border-b-[2px] active:brightness-90 active:translate-y-[2px]"
             >
               Send message
             </button>

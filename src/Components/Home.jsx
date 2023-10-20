@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import Typed from "typed.js";
 import Manik from "../assets/Manik.jpeg";
+import { MdRemoveRedEye } from "react-icons/md";
 
 function Home() {
   useEffect(() => {
@@ -52,7 +53,7 @@ function Home() {
             className="w-[150px] bg-white h-[50px] my-3 flex items-center justify-center rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-indigo-400 before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-[#000000] font-bold"
             onClick={openResumeInNewTab}
           >
-            View Resume
+             <span className="mr-2 mt-[1px]"><MdRemoveRedEye/></span>Resume
           </button>
         </div>
         <div className="lg:mt-0 lg:col-span-5 flex min-[300px]:mt-5 min-[300px]:items-center min-[300px]:justify-center">
