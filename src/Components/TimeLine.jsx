@@ -15,6 +15,7 @@ const TimeLine = ({ timelineData }) => {
             className="vertical-timeline-element--work text-white font-semibold "
             date={item.date}
             icon={item.icon}
+            iconStyle={{ background: '#ffffff'}}
           >
             <h3 className="vertical-timeline-element-title text-black">{item.title}</h3>
             <h4 className="vertical-timeline-element-subtitle text-indigo-700">

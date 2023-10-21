@@ -15,7 +15,7 @@ function About() {
       description: "Worked on real-world projects using MERN stack",
       icon: (
         <img
-          src="https://media.licdn.com/dms/image/C4D0BAQFheEbgt4_U_w/company-logo_200_200/0/1661277230836/codeclause_logo?e=1706140800&v=beta&t=5ZtJvTxOfshZFsItTTsGI0ko-2st43-QI6ZninFsjEE"
+          src="https://internship.codeclause.com/assets/img/codeclause.png"
           className="w-18 h-18 rounded-full"
           alt="codeclause"
         />
@@ -29,7 +29,7 @@ function About() {
         "Learned about web development technologies like HTML, CSS, JavaScript, Bootstrap, jQuery, MySQL, and completed interesting projects",
       icon: (
         <img
-          src="https://media.licdn.com/dms/image/C560BAQEurnSUo3oWFw/company-logo_200_200/0/1588835805794/smartknower_logo?e=1706140800&v=beta&t=JX8LCaxOLYb7FxTM0E2iz0LN2Me6zkezhBOJtsDNQZo"
+          src="https://media.glassdoor.com/sql/3678885/smartknower-squarelogo-1641471935343.png"
           className="w-18 h-18 rounded-full"
           alt="smartknower"
         />

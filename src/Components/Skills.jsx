@@ -112,7 +112,7 @@ function Skills() {
           </p>
         </div>
       </div>
-      <div className="mt-8 mx-32 flex flex-wrap justify-center items-center gap-8 bg-black">
+      <div className="max-[540px]:mx-16 mt-8 mx-32 flex flex-wrap justify-center items-center gap-8 bg-black">
         {skills.map((skill, index) => (
           <div key={index} className="text-center">
             <div>
