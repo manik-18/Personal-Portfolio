@@ -10,7 +10,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="bg-black fixed w-full z-20 top-0 left-0">
+    <nav className="bg-black w-full absolute z-20 top-0 left-0">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         {/* Logo and Site Title */}
         <Link to="home" className="flex items-center">
