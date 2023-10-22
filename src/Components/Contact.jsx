@@ -24,6 +24,17 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    if (
+      formValues.name === "" ||
+      formValues.email === "" ||
+      formValues.subject === "" ||
+      formValues.message === ""
+    ) {
+      toast('Please fill all the fields', {
+        icon: '⚠️',
+      });
+      return;
+    }
 
     emailjs.init(userId);
 
